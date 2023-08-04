@@ -1,0 +1,113 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    background-image: url(Mandelbrot-set.jpg);;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #d1fddb;
+    font-size: large;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 10px 14px;
+    background-color: #d1fddb;
+    text-decoration: none;
+    font-size: medium;
+    font-weight:400;
+
+  }
+
+  li a:hover {
+    background-color: #9c9a9a;
+  }
+
+  #sections {
+    margin: 150px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.351);
+    
+    
+  }
+
+  #sections h1{
+    text-align: center;
+    font-size:35px;
+    padding: 5px;
+    background-color:blanchedalmond;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+  }
+
+  
+  .intro {
+    background: white;
+    margin: 20px;
+    padding: 10px;
+    
+  }
+  
+  .intro p {
+    margin: 40px;
+    font-size: 100%;
+  }
+
+  .intro h2 {
+    margin: 30px;
+    font-size: 20px;
+    text-align:left;
+  }
+  
+  #contacto {
+    text-align: center;
+    background-color: blanchedalmond;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 150px;
+   }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #d1fddb;;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+ }
+
+
+ 
+
+
+
+ 
+
+
